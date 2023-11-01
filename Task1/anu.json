@@ -1,0 +1,74 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["hello", "hi", "hey"],
+    "bot_response": "Hey there!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["see you", "goodbye", "bye"],
+    "bot_response": "See you later!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["nice", "to", "meet", "you"],
+    "bot_response": "nice to meet you too!",
+    "required_words": ["nice", "meet", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "to", "learn", "code", "coding", "apps"],
+    "bot_response": "Start by typing: 'How to learn coding' on Google.",
+    "required_words": ["learn", "code"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["refund", "how", "can", "I", "get"],
+    "bot_response": "We don't offer refunds for free education.",
+    "required_words": ["refund", "i"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "are", "you"],
+    "bot_response": "I'm great! Thanks for asking.what about you?",
+    "required_words": ["how", "are", "you"]
+  },
+  {
+    "response_type": "command",
+    "user_input": ["can", "you", "make","tea"],
+    "bot_response": "yes I can! wait a minute.",
+    "required_words": ["make", "coffee"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["good", "morning"],
+    "bot_response": "good morning ",
+    "required_words": ["good", "morning"]
+  },
+   {
+    "response_type": "greeting",
+    "user_input": ["good", "night"],
+    "bot_response": "good night.Sweet dreams!",
+    "required_words": ["good", "night"]
+  },
+   {
+    "response_type": "question",
+    "user_input": ["what", "is", "the","current","news"],
+    "bot_response": "Start by typing: 'current news' on Google.",
+    "required_words": ["current", "news"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["what", "is", "the","current","weather"],
+    "bot_response": "Start by typing: 'current weather' on Google.",
+    "required_words": ["current", "weather"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["who","is","your", "favourite", "actor"],
+    "bot_response": "Vijay",
+    "required_words": ["favourite", "actor"]
+  }
+]
